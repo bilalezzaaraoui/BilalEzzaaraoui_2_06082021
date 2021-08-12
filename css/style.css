@@ -22,6 +22,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 li {
@@ -191,4 +192,213 @@ header nav ul li:last-child a{
     border: 1.5px solid #F2F2F2;
     border-radius: 50%;
     margin-right: .8rem;
+}
+
+/* Section First */
+.second {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    grid-column-gap: 50px;
+    margin-top: 2.5rem;
+}
+
+.card-bloc-one,
+.card-bloc-two {
+    background-color: var(--gris);
+    border-radius: 15px;
+    padding: 2rem 2rem 0;
+    height: auto;
+}
+
+.card-bloc-one h3 {
+    margin-bottom: 1rem;
+}
+
+
+.card-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100;
+    padding: .3rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 100%;
+    height: 90px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.card-1 {
+    background-image: url("../images/card/1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-2 {
+    background-image: url("../images/card/2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-3 {
+    background-image: url("../images/card/3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-4 {
+    background-image: url("../images/card/4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-5 {
+    background-image: url("../images/card/5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-6 {
+    background-image: url("../images/card/6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.card-info {
+    padding: .5rem .6rem;
+}
+
+.card-info h4 {
+    font-size: .7rem;
+    margin-bottom: 5px;
+}
+
+.card-info p {
+    font-size: .7rem;
+    margin-bottom: 5px;
+}
+
+.card-info p span {
+    font-weight: 700;
+}
+.card-info ul {
+    display: flex;
+    margin-top: 5px;
+}
+
+.card-info ul li {
+    font-size: .6rem;
+}
+
+.link-more {
+    font: .8rem;
+    font-weight: 700;
+    transition: .8s;
+}
+
+.link-more:hover {
+    transform: scale(1.05);
+}
+
+/* Card Bloc Two */
+.bloc-two-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.bloc-two-title h3 {
+    font-size: 1.2rem;
+}
+
+.bloc-two-title i {
+    font-size: 1.1rem;
+}
+
+.card-two {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: .3rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .8s;
+    margin-bottom: 1.5rem;
+}
+
+.card-two:hover {
+    transform: scale(1.05);
+}
+
+.card-img-two {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-7 {
+    background-image: url("../images/card/7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-8 {
+    background-image: url("../images/card/8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-9 {
+    background-image: url("../images/card/9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-info-two {
+    padding: .7rem .9rem 0;
+}
+
+.card-info-two h4 {
+    font-size: .8rem;
+    margin-bottom: 5px;
+}
+
+.card-info-two p {
+    font-size: .7rem;
+    margin-bottom: 2rem;
+}
+
+.card-info-two ul {
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+.card-info-two ul li {
+    font-size: .6rem;
 }
