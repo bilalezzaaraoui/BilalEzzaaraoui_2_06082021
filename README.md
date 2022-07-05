@@ -1,10 +1,10 @@
 # Reservia
 
-Deuxième projet du parcours développeur web chez OpenClassrooms. L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Reservia" (voir l'image ci-dessous).
+L'objectif êtait d'intégrer la maquette d'un site de planification de vacance nommé "Reservia" (voir l'image ci-dessous).
 
 ![maquette web reservia](images/mockup/desktop.png)
 
-## Éléments fournis par l'entreprise virtuelle.
+## Éléments fournis par l'entreprise.
 
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
 - Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
