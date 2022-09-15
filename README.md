@@ -32,4 +32,4 @@ L'objectif êtait d'intégrer la maquette d'un site de planification de vacance 
 
 ## Contactez-moi
 
-- Vous pouvez me contacter sur github, ou sur mon adresse mail [adresse mail](mailto:contact@mathisbarre.com).
+- Vous pouvez me contacter sur github, ou sur mon adresse mail [adresse mail](mailto:ezzaafreelance@gmail.com).
